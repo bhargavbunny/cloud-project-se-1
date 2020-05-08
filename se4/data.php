@@ -4,10 +4,10 @@
 function get_M_name($Technology, $M_name)
 {
         /* Database INFO */
-	$servername = "localhost";
-	$username = "konapalb1";
-	$password = "12koi2";
-	$dbname = "konapalb1_db";
+	$servername = "us-cdbr-east-06.cleardb.net";
+	$username = "b877505a0f88cc";
+	$password = "a9022248";
+	$dbname = "heroku_55bbd09e4d7e27d";
 
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
